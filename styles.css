@@ -1,0 +1,128 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+nav{
+background-color: #1b1b11;
+width: 100%;
+padding: 10px 0; 
+}
+
+nav .menu{
+max-width: 1250px;
+display: flex;
+margin: auto;
+align-items: center;
+justify-content: space-between;
+padding: 0 20px;
+}
+
+.menu .logo a{
+text-decoration: none;
+font-size: 35px;
+
+color: white;
+font-weight: 600;
+}
+
+.menu ul{
+display: inline-flex;
+list-style: none;
+}
+
+.menu ul li{
+margin-left: 7px;
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 600;
+    background: #000;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+
+}
+
+.menu ul li a:hover{
+background: #fff;
+color: #000;
+}
+ /* header element */
+
+.img{
+background: url(./camer.jpg) no-repeat;
+height: 100vh;
+width: 100%;
+background-position: center;
+background-size: cover;
+}
+
+.img::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0,0.5);
+}
+
+.center{
+position:absolute;
+top: 52%;
+left:50%;
+width: 100vw;
+transform: translate(-50%,-50%);
+padding: 0 20px;
+text-align: center;
+
+}
+.center .tittle{
+margin: 20px;
+color: #fff;
+font-size: 50px;
+font-weight: 600;
+}
+
+.center .subtittle{
+    margin: 20px;
+    color: #fff;
+    font-size: 46px;
+    font-weight: 600;
+}
+
+/* .center .btns{
+margin: 20px;
+} */
+
+.center .btns button{
+height: 55px;
+width: 170px;
+border-radius: 5px;
+border: 2px solid #fff;
+margin: 0 10px;
+font-size: 20px;
+font-weight: 500;
+padding: 0 10px;
+cursor: pointer;
+outline: none;
+transition: all 0.3 ease;
+}
+.center .btns button:first-child{
+color: #fff;
+background: none;
+
+}
+
+.center .btns button:first-child:hover{
+background: #fff;
+color: #000;
+
+}
